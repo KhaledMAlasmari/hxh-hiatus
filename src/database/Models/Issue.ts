@@ -2,21 +2,25 @@ import mongoose from 'mongoose'
 import issueInterface from '../../helpers/Interfaces/issueInterface'
 
 const issueSchema = new mongoose.Schema({
-	issue: String,
-	date: Date,
-	onHiatus: Boolean
+	issues: [
+		{
+			issue: String,
+			chapter: Number,
+			date: Date,
+			isPublished: Boolean,
+			releaseStreak: Number,
+			hiatusStreak: Number,
+		},
+	],
+	year: Number,
 })
-
 
 issueSchema.set('toJSON', {
 	transform: (document, returnedObject) => {
-		returnedObject.id = returnedObject._id.toString()
 		delete returnedObject._id
 		delete returnedObject.__v
-
-	}
+	},
 })
-
 
 const Issue = mongoose.model<issueInterface>('Issue', issueSchema)
 

@@ -13,7 +13,7 @@ const parseStatusFromPage = async (): Promise<hiatusStatus> => {
 const parseStatusFromText = (issueRawData: string, absentSeries: string): hiatusStatus => {
 	const issueNumber = issueRawData.match('[0-9]-?[0-9]号')[0].replace('号', '')
 	const isHxHAbsent = absentSeries.indexOf('HUNTER×HUNTER') != -1 ? true : false
-	return {issue: issueNumber, onHiatus: isHxHAbsent}
+	return {issue: issueNumber, isPublished: !isHxHAbsent}
 }
 
 export{
@@ -22,5 +22,5 @@ export{
 }
 interface hiatusStatus {
 	issue: string,
-	onHiatus: boolean
+	isPublished: boolean
 }
