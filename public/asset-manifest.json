@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a9d9a40.chunk.css",
-    "main.js": "/static/js/main.92165d2e.chunk.js",
-    "main.js.map": "/static/js/main.92165d2e.chunk.js.map",
+    "main.css": "/static/css/main.ed3910dd.chunk.css",
+    "main.js": "/static/js/main.19752dda.chunk.js",
+    "main.js.map": "/static/js/main.19752dda.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7d4801f7.js",
     "runtime-main.js.map": "/static/js/runtime-main.7d4801f7.js.map",
     "static/js/2.9e6f3fcc.chunk.js": "/static/js/2.9e6f3fcc.chunk.js",
     "static/js/2.9e6f3fcc.chunk.js.map": "/static/js/2.9e6f3fcc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3a9d9a40.chunk.css.map": "/static/css/main.3a9d9a40.chunk.css.map",
+    "static/css/main.ed3910dd.chunk.css.map": "/static/css/main.ed3910dd.chunk.css.map",
     "static/js/2.9e6f3fcc.chunk.js.LICENSE.txt": "/static/js/2.9e6f3fcc.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/couture-bld.b144f2b3.otf",
     "static/media/gon.f8007edc.png": "/static/media/gon.f8007edc.png",
     "static/media/hiatusBackgroundStyle.css": "/static/media/wave.91b546d3.svg",
     "static/media/loading.717250f4.gif": "/static/media/loading.717250f4.gif",
-    "static/media/logo.6295f10b.png": "/static/media/logo.6295f10b.png",
-    "static/media/logo.7eb78b55.svg": "/static/media/logo.7eb78b55.svg"
+    "static/media/logo.7eb78b55.svg": "/static/media/logo.7eb78b55.svg",
+    "static/media/logo.ada24a7d.png": "/static/media/logo.ada24a7d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7d4801f7.js",
     "static/js/2.9e6f3fcc.chunk.js",
-    "static/css/main.3a9d9a40.chunk.css",
-    "static/js/main.92165d2e.chunk.js"
+    "static/css/main.ed3910dd.chunk.css",
+    "static/js/main.19752dda.chunk.js"
   ]
 }
