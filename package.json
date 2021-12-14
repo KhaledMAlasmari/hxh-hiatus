@@ -4,7 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "engines": {
-    "yarn": "1.22.10"
+    "yarn": "1.22.17"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=production ts-node src/index.ts",
